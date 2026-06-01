@@ -1,0 +1,6 @@
+.env
+.DS_Store
+
+# Service repositories live next to the infra repo, but are versioned separately.
+gateway_service/
+recommendation_service/
