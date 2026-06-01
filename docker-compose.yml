@@ -11,9 +11,6 @@ services:
       RECOMMENDATION_SERVICE_URL: ${RECOMMENDATION_SERVICE_URL:-http://recommendation-service:8000}
     ports:
       - "127.0.0.1:3000:3000"
-    depends_on:
-      recommendation-service:
-        condition: service_started
     healthcheck:
       test:
         [
