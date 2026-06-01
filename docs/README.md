@@ -8,6 +8,11 @@ This folder documents the backend as a multi-service system.
 - `DEPLOYMENT.md` - production layout under `/opt/backend_sloco` and CD roles.
 - `tasks/` - backend-level task plans and migration history.
 
+## TBD Thinking Docs
+
+- `tasks/TBD_CICD_SECRETS_AND_RUNNERS.md` - future rethink of CI/CD, secrets,
+  private repos, GitHub Actions minutes, TeamCity, and self-hosted runners.
+
 ## Service Docs
 
 - `../gateway_service/README.md` - API Gateway local development and API notes.
